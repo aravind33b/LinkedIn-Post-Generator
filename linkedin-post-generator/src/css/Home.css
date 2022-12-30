@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+body {
+    background-color: #043687;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+.main-form {
+    margin: 0 auto; 
+    width:480px;
+    padding: 25px;
+    font-family: 'Open Sans', sans-serif;
+    border:5px solid;
+    border-radius: 1rem !important;
+    background-color: #FFCE0A;
+    border-color:#FFCE0A;
+}
+
+.grp-1 {
+    padding:15px;
+    margin-right: 230px;
+}
+
+.grp-2 {
+    padding:15px;
+    margin-right: 170px;
+}
+
+.textBox {
+    border-radius: 5px;
+    margin-left: 12px;
+    margin-top: 10px;
+    width: 400px;
+    height: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.optionsBox {
+    border-radius: 5px;
+    margin-left: 12px;
+    margin-top: 10px;
+    width: 410px;
+    height: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.submitBtn {
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:#0547b0;
+    color: whitesmoke;
+    margin-top: 20px;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+}

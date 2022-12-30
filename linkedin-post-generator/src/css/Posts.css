@@ -1,0 +1,38 @@
+.cardTxt {
+    height: 200;
+    width: 150;
+    padding: 10;
+    background-color: #FFCE0A;
+    -webkit-filter: drop-shadow(0px 0px 5px #666);
+    filter: drop-shadow(0px 0px 5px #666);
+    display: inline-block;
+    margin: 45px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+}
+
+.copyBtn {
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:#0547b0;
+    color: whitesmoke;
+    margin-top: 20px;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    margin-left:-50px;
+    margin-bottom: 20px;
+    left:50%;
+    width:100px;
+    bottom:0px;
+}
+
+.showPosts {
+    color: #060606;
+    text-decoration: none;
+}
+
+#txtMsg {
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
