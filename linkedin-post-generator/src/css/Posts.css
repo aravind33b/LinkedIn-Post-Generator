@@ -1,13 +1,14 @@
 .cardTxt {
-    height: 200;
-    width: 150;
+    height: 300px;
+    width: 800px;
     padding: 10;
     background-color: #FFCE0A;
     -webkit-filter: drop-shadow(0px 0px 5px #666);
     filter: drop-shadow(0px 0px 5px #666);
     display: inline-block;
     margin: 45px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-size: x-large;
     border-radius: 10px;
 }
 
@@ -18,7 +19,7 @@
     color: whitesmoke;
     margin-top: 20px;
     padding: 5px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
     position: absolute;
     margin-left:-50px;
     margin-bottom: 20px;
@@ -28,11 +29,13 @@
 }
 
 .showPosts {
+    font-family: 'Manrope', sans-serif;
+    
     color: #060606;
     text-decoration: none;
 }
 
 #txtMsg {
     color: whitesmoke;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }

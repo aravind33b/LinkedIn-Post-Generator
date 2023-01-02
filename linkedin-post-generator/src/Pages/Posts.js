@@ -44,7 +44,7 @@ const Posts = () => {
           generatedLinkedInPosts.map((p) => {
             temp = p;
             return(<Card className="cardTxt">
-            <Card.Body style={{width:150, height: 200, textAlign:"center"}}>
+            <Card.Body className="card-body">
                 <Card.Title style={{padding: "15px"}}>{p.text}</Card.Title>
                 <Button className="copyBtn" onClick={copyBtn}>Copy Text</Button>
             </Card.Body>
@@ -55,7 +55,7 @@ const Posts = () => {
 
         <Button className='submitBtn' variant="primary" type="submit" style={{backgroundColor:"#FFCE0A"}}>
                 <Link to={"/"} className="showPosts" state = {{color: "#0547b0"}}>
-                    <Emoji label="AI" symbol="🤪"/> Let's Generate a new one
+                    <Emoji label="AI" symbol="🆕"/> Let's Generate a new one
                 </Link>
         </Button>
 
